@@ -32,8 +32,6 @@
         <elasticsearch.version>6.5.3</elasticsearch.version>
         <flyway.version>5.2.1</flyway.version>
         <justauth.version>1.15.5</justauth.version>
-        <sonar.organization>jade301</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -248,11 +246,6 @@
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>${sonar-maven-plugin.verson}</version>
-            </plugin> 
         </plugins>
     </build>
 
