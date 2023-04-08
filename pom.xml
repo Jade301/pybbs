@@ -32,12 +32,10 @@
         <elasticsearch.version>6.5.3</elasticsearch.version>
         <flyway.version>5.2.1</flyway.version>
         <justauth.version>1.15.5</justauth.version>
-    </properties>
-    <properties>
-         <sonar.organization>jade301</sonar.organization>
-         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-         <sonar.projectKey>-Dsonar.projectKey=Jade301_pybbs</sonar.projectKey>
-         <sonar.login>7f2958ada6d102c60f21b83877633b8b9ec26472</sonar.login>
+        <sonar.organization>jade301</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>-Dsonar.projectKey=Jade301_pybbs</sonar.projectKey>
+        <sonar.login>7f2958ada6d102c60f21b83877633b8b9ec26472</sonar.login>
     </properties>
 
     <dependencies>
